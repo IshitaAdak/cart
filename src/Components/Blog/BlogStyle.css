@@ -1,0 +1,86 @@
+.blog .blog_banner img{
+height: 350px;
+width: 100%;
+}
+.blog .blog_heading{
+margin-top: 50px;
+font-size: 2.2rem;
+font-weight: bolder;
+font-family:'Times New Roman', Times, serif;
+font-style: italic;
+color:rgb(15, 15, 61);
+word-spacing: 2px;
+}
+.blog .image{
+height: 200px;
+}
+.blog .blog_head{
+font-size: 1.2rem;
+font-weight: 600;
+margin: 5px 0;
+}
+.blog .blog_body{
+text-align: justify;
+padding: 0 7px;
+
+}
+.blog .author{
+font-weight: bold;
+font-style: italic;
+}
+.blog .author_name{
+text-align: start;
+margin: 5px 0 4px 7px;
+
+}
+.blog .button{
+    margin: 10px 0;
+    background: rgb(108, 108, 241);
+    padding: 5px 10px;
+    color: white;
+}
+.blog .button:hover{
+    background: blue;
+}
+.blog .card:hover{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(186,180,174,1) 100%, rgba(0,0,0,1) 100%);
+}
+.blog .main_button{
+    margin: 10px 0;
+    background: rgb(108, 108, 241);
+    padding: 8px 15px;
+    color: white;
+    border-radius: 6px;
+}
+.blog .main_button:hover{
+    background: blue;
+    font-weight: bold;
+}
+@media (width<=576px) {
+.blog .card{
+width: 80%;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+} 
+}
+@media (width<=320px) {
+    .blog .card{
+    width: 100%;
+} 
+.blog .blog_heading{
+    font-size: 1.6rem;
+}
+    }
+    @media (width<=1024px) {
+        .blog .card{
+            margin: 0px 15px;
+         
+        }   
+    }
+    @media (width<=768px) {
+        .blog .card{
+            margin: 0px;
+         
+        }   
+    }

@@ -1,0 +1,78 @@
+.reg .registration-container {
+  background: url("../../../public/image/login.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.reg .reg-form {
+  height: 500px;
+  width: 500px;
+  background: white;
+  border-radius: 6px;
+  position: absolute;
+}
+
+.reg .submit_button{
+  background: rgb(232, 176, 35);
+margin-top: 17px;
+padding: 10px 100px;
+color: #000;
+font-weight: bold;
+font-style: italic;
+}
+.reg .form-group{
+  margin-bottom: 10px;
+  }
+.reg .submit_button:hover{
+    background: rgb(200, 144, 3);
+}
+.reg .heading{
+    margin-bottom: 18px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.reg .error-message{
+    color: red;
+  }
+.reg .text-field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: black;
+  
+  }
+.reg .input_image{
+    width: 280Px;
+  }
+.reg .input_image .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: black;
+  }
+.reg .text-field{
+    width: 280px;
+  }
+  @media (width<=320px) {
+  .reg .reg-form {
+    height: 520px;
+    width: 280px;
+  }
+  .reg .heading {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+  }
+  .reg .text-field {
+    margin-bottom: 10px;
+    width: 240px;
+  }
+  .reg .input_image{
+    width: 240px;
+  }
+  .reg .submit_button {
+    padding: 8px 80px;
+  }
+}

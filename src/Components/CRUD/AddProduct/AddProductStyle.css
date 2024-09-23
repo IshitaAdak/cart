@@ -1,0 +1,88 @@
+
+.add .add-container {
+  background: url(../../../../public/image/create_product.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.add .product-form {
+  height: 515px;
+  width: 400px;
+  background: white;
+  border-radius: 6px;
+}
+.add .error-message {
+  color: red;
+}
+.add .add-heading {
+  margin-bottom: 15px;
+  margin-top: 25px;
+  font-size: 1.5rem;
+  font-style: italic;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.add .button {
+  background: rgb(232, 176, 35);
+  padding: 8px 100px;
+  margin-top: 10px;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.add .button:hover {
+  background: rgb(200, 144, 3);
+}
+.add .form-group {
+  margin-bottom: 10px;
+}
+.add .text-field {
+  width: 270px;
+}
+.add
+  .text-field
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: black;
+}
+@media (width<=500px) {
+
+  .add .product-form {
+    height: 490px;
+    width: 350px;
+  }
+  .add .add-heading {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+  }
+  .add .text-field {
+    width: 230px;
+  }
+  .add .button {
+    padding: 8px 80px;
+  }
+}
+@media (width<=390px) {
+
+  .add .product-form {
+    height: 470px;
+    width: 280px;
+  }
+  .add .add-heading {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+  .add .text-field {
+    width: 230px;
+  }
+  .add .button {
+    padding: 8px 80px;
+  }
+}

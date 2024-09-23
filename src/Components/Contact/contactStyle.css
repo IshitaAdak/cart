@@ -1,0 +1,129 @@
+.con .icon {
+  color: white;
+  font-size: 32px;
+}
+
+.con .c_2 {
+  height: 390px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  margin: 40px 0;
+}
+
+.con .text-field {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.con .contact-heading {
+  position: relative;
+  right: 100px;
+  top: 30px;
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-bottom: 40px;
+
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(2, 76, 105);
+}
+
+.con .contact_image {
+  height: 350px;
+  width: 380px;
+  margin: 40px 0;
+}
+.con .icon-heading {
+  font-weight: 600;
+}
+.con .submit-button {
+  color: rgb(5, 5, 118);
+  padding: 7px 30px;
+  border: 2px solid blue;
+  margin-top: 20px;
+  margin-right: 170px;
+}
+.con .submit-button:hover {
+  background: rgb(2, 76, 105);
+  color: white;
+  border: none;
+}
+.con .contact-card {
+  min-height: 130px;
+  min-width: 250px;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  border: 2px solid whitesmoke;
+  margin-top: 30px;
+}
+.con .card-text {
+  color: white;
+  margin-top: 12px;
+  font-size: 15px;
+}
+.con .google-map iframe {
+  height: 350px;
+  width: 100%;
+}
+@media (width<=768px) {
+  .con .c_2 {
+    margin: 40px 55px;
+  }
+}
+@media (width<=576px) {
+  .con .contact-card {
+    max-width: 450px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (width<=545px) {
+
+  .con .c_2 {
+    margin: 0px 20px;
+  }
+  .con .text-field {
+    width: 250px;
+  }
+  .con .contact-heading {
+    position: relative;
+    left: 5px;
+  }
+  .con .submit-button {
+    position: relative;
+    left: 10%;
+    /* transform: translateX(-30%); */
+  }
+
+}
+@media (width<=400px) {
+  .con .c_2 {
+    margin: 0px 0px;
+  }
+  .con .text-field {
+    width: 200px;
+  }
+  .con .contact-heading {
+    position: relative;
+    left: 5px;
+  }
+  .con .submit-button {
+    position: relative;
+    left: 15%;
+
+  }
+  .con .contact_image {
+    height: 280px;
+    width: 300px;
+    margin: 40px 0;
+  }
+}
+@media (width<=320px) {
+
+  .con .submit-button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+}

@@ -1,0 +1,149 @@
+.about .image img {
+  margin-top: 40px;
+  height: 350px;
+  width: 370px;
+  border-radius: 50%;
+}
+
+.about .text {
+  margin-top: 50px;
+  padding-left: 10px;
+}
+.about .text-heading {
+  font-size: 1.6rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+.about .text-t {
+  text-align: left;
+  line-height: 28px;
+  margin-top: 10px;
+}
+@media (max-width: 520px) {
+  .about .image img {
+    margin-top: 50px;
+    height: 300px;
+    width: 80%;
+  }
+}
+.about .card {
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.about .card-image {
+  object-fit: cover;
+  height: 230px;
+}
+.about .card-text {
+  border: 2px solid transparent;
+  padding: 10px 15px;
+
+  border-radius: 5px;
+
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.about .text-color_1 {
+  background: pink;
+  color: rgb(9, 63, 86);
+}
+.about .text-color_2 {
+  background: lightgreen;
+  color: blue;
+}
+.about .text-color_3 {
+  background: rgb(143, 235, 234);
+  color: darkred;
+}
+.about .text-color_4 {
+  background: bisque;
+  color: blueviolet;
+}
+.about .about-heading {
+  font-size: 1.7rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.about .slider {
+  height: 350px;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+}
+.about .slider-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.about .slider-text {
+  color: white;
+  text-align: left;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+
+
+@media (width<=1024px) {
+  .about .card {
+    margin: 0px 15px;
+  }
+  .about .slider {
+    height: 380px;
+  }
+}
+@media (width<=992px) {
+  .about .slider {
+    height: 350px;
+  }
+}
+@media (width<=770px) {
+  .about .slider {
+    height: 380px;
+  }
+}
+@media (width<=576px) {
+
+    .about .card {
+      width: 78%;
+      position: relative;
+      left: 40%;
+      transform: translateX(-40%);
+    }
+    .about .slider {
+      height: 400px;
+    }
+  }
+  @media (width<=576px) {
+
+    .about .card {
+      width: 78%;
+      position: relative;
+      left: 30%;
+      transform: translateX(-30%);
+    }
+ 
+  }
+@media (width<=320px) {
+  .about .card {
+    width: 100%;
+    margin: 0px;
+  }
+  .about .image img {
+    height: 300px;
+    width: 280px;
+    border-radius: 50%;
+  }
+}

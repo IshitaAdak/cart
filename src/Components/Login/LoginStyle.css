@@ -1,0 +1,73 @@
+.login-container{
+  background: url(../../../public/image/login.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.log .login-form{
+  height: 400px;
+  width: 400px;
+  background: white;
+  border-radius: 6px;
+}
+.log .error-message{
+color: red;
+}
+.log .login-heading {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-style: italic;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.log .button{
+  background: rgb(232, 176, 35);
+  padding: 8px 100px;
+  margin-top: 10px;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.log .button:hover{
+background: rgb(200, 144, 3);
+}
+.log .form-group{
+margin-bottom: 10px;
+}
+.log .text-field{
+width: 270px;
+
+}
+.log .text-field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: black;
+
+}
+.log .down-text{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1rem;
+}
+@media (width<=320px) {
+
+  .log .login-form {
+    height: 380px;
+    width: 280px;
+  }
+  .log .login-heading {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+  .log .text-field {
+    width: 230px;
+  }
+  .log .button {
+    padding: 8px 80px;
+  }
+}

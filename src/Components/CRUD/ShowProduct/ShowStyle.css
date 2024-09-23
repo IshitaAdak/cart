@@ -1,0 +1,58 @@
+.show .card{
+    height: 390px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.show .image{
+    height: 240px;
+    width: 100%;
+    object-fit: contain;
+}
+.show .product_title{
+font-weight: bold;
+font-size: 1.1rem;
+}
+.show .product_body{
+margin: 5px 0 10px 0;
+}
+.show .button{
+    margin: 10px 0;
+   
+    padding: 8px 15px;
+    color: white;
+    border-radius: 6px;
+    
+}
+.show .btnmar{
+margin-right: 18px;
+background: rgb(108, 108, 241);
+}
+.show .btnmar:hover{
+background: blue;
+font-weight: bold;
+}
+.show .del{
+background: rgb(239, 101, 101);
+
+}
+.show .del:hover{
+background: brown;
+font-weight: bold;
+}
+.show .pagination{
+display: flex;
+justify-content: center;
+margin: 20px 0;
+}
+@media (width<=576px) {
+    .show .card{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+  }
+  @media (width<=320px) {
+    .show .card{
+    width: 100%;
+}
+  }

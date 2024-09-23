@@ -1,0 +1,64 @@
+.speciality .speciality-heading{
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ margin: 30px 0 25px 0;
+ font-style: italic;
+}
+.speciality .card {
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .speciality .card-image {
+    object-fit: cover;
+    height: 230px;
+  }
+  .speciality .card-text {
+    border: 2px solid transparent;
+    padding: 10px 15px;
+  
+    border-radius: 5px;
+  
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .speciality .text-color_1 {
+    background: pink;
+    color: rgb(9, 63, 86);
+  }
+  .speciality .text-color_2 {
+    background: lightgreen;
+    color: blue;
+  }
+  .speciality .text-color_3 {
+    background: rgb(143, 235, 234);
+    color: darkred;
+  }
+  .speciality .text-color_4 {
+    background: bisque;
+    color: blueviolet;
+  }
+  @media (width<=1024px) {
+    .speciality .card {
+      margin: 0px 25px;
+    }
+  }
+  @media (width<=768px) {
+    .speciality .card {
+      margin: 0px;
+    }
+  }
+  @media (width<=576px) {
+    .speciality .card {
+     width: 80%;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+    }
+  }
+  @media (width<=320px) {
+    .speciality .card {
+     width: 100%;
+  
+    }
+  }

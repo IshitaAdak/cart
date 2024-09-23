@@ -1,0 +1,10 @@
+.faq .faq_ans{
+text-align: justify;
+}
+.faq .faq_qs{
+background: rgb(100, 99, 99);
+}
+.faq{
+margin-bottom: 20px;
+}
+

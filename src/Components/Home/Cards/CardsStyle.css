@@ -1,0 +1,82 @@
+.cards {
+  margin: 20px 0;
+}
+.cards .card_1 {
+  height: 350px;
+  background: black;
+}
+.cards .image {
+  height: 250px;
+  object-fit: cover;
+  object-position: center top;
+}
+.cards .card_text {
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+.cards .cards-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px 0 10px 0;
+  font-style: italic;
+}
+@media (width<900px) {
+  .cards .card_1 {
+    height: 400px;
+    width: 65%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .cards .image {
+    height: 290px;
+    background-position: top;
+  }
+}
+@media (width<=768px) {
+  .cards .card_1 {
+    height: 400px;
+    width: 65%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .cards .image {
+    height: 290px;
+  }
+}
+@media (width<=576px) {
+  .cards .card_1 {
+    height: 350px;
+    width: 75%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .cards .image {
+    height: 250px;
+  }
+}
+@media (width<400px) {
+  .cards .card_1 {
+    height: 350px;
+    width: 85%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+}
+@media (width<=320px) {
+  .cards .card_1 {
+    width: 100%;
+  }
+  .cards .cards-heading {
+    font-size: 1.5rem;
+  }
+}

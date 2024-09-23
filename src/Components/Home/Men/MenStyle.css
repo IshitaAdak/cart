@@ -1,0 +1,43 @@
+.men .search_text{
+font-size: 1.5rem;
+font-weight: bold;
+font-style: italic;
+margin-top: 15px;
+}
+.men{
+margin: 40px 0;
+}
+.men .men_card{
+height: 370px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin-top: 10px;
+}
+.men .men_card .image{
+height: 240px;
+width: 100%;
+object-fit: contain;
+}
+.men .text_heading{
+font-weight: bold;
+}
+.men .men_button{
+background: rgb(108, 108, 241);
+padding: 5px 10px;
+color: white;
+}
+.men .men_button:hover{
+background: blue;
+}
+@media (width<=576px) {
+    .men .men_card{
+        width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+}
+@media (width<=320px) {
+    .men .men_card{
+    width: 100%;
+}
+  }

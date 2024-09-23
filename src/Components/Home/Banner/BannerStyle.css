@@ -1,0 +1,8 @@
+body{
+overflow-x: hidden;
+
+}
+.banner .banimg img{
+width: 100%;
+height: 400px;
+}

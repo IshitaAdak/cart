@@ -1,0 +1,58 @@
+.timer .timer_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+  top: 55%;
+  transform: translateY(-50%);
+  color: white;
+}
+.timer .timer_img img {
+  height: 150px;
+  width: 380px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.timer_con {
+  background-color: rgb(77, 72, 72);
+  height: 250px;
+}
+.timer {
+  margin: 25px 0px 25px 0px;
+}
+@media (width<800px) {
+  .timer .timer_img img {
+    height: 150px;
+    width: 280px;
+  }
+}
+@media (width<700px) {
+  .timer .timer_img img {
+    height: 130px;
+    width: 250px;
+  }
+  .timer .text {
+    font-size: 1.6rem;
+  }
+  .timer .st {
+    font-size: 0.9rem;
+  }
+}
+@media (width<600px) {
+  .timer_con {
+    height: 270px;
+  }
+  .timer .timer_img img {
+    height: 130px;
+    width: 300px;
+    margin-top: 25px;
+  }
+}
+@media (width<350px) {
+  .timer .timer_img img {
+    height: 120px;
+    width: 230px;
+    margin-top: 30px;
+  }
+}

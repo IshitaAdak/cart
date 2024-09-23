@@ -1,0 +1,73 @@
+.card2 {
+  margin: 35px 0 20px 0;
+}
+.card2 .card2_heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card2 .card {
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+  /* background-repeat: no-repeat; */
+  border-radius: 5px;
+}
+.card2 .card:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+}
+.card2 .card_1 {
+  background-image: url("../../../../public/image/last2.jpg");
+}
+.card2 .card_2 {
+  background-image: url("../../../../public/image/last1.jpg");
+}
+.card2 .card_3 {
+  background-image: url("../../../../public/image/last3.jpg");
+}
+.card2 .context {
+  font-size: 1.8rem;
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.card2 .off {
+  font-size: 2.3rem;
+  color: white;
+  position: relative;
+  top: 45%;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+@media (width<=900px) {
+
+  .card2 .nohover {
+    pointer-events: none;
+  }
+}
+
+@media (width<=576px) {
+  .card2 .card {
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+}
+@media (width<=450px) {
+  .card2 .card {
+    width: 100%;
+    background-position: center;
+
+  }
+}
